@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dc3"
+    tools:context=".UpdateNoteActivity">
+
+    <TextView
+        android:id="@+id/updateNoteHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:text="Doctor Shoes"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-smallcaps" />
+
+    <ImageView
+        android:id="@+id/updateSaveButton"
+        android:layout_width="132dp"
+        android:layout_height="86dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="-16dp"
+        android:src="@drawable/order" />
+
+    <EditText
+        android:id="@+id/updateOwnerNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Nama Pemilik Sepatu"
+        android:textColorHint="@color/black"
+        android:layout_below="@id/updateNoteHeading"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_border" />
+
+    <EditText
+        android:id="@+id/updateShoeNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Nama Sepatu"
+        android:textColorHint="@color/black"
+        android:layout_below="@id/updateOwnerNameEditText"
+        android:layout_marginTop="12dp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_border" />
+
+    <EditText
+        android:id="@+id/updateShoeSizeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Ukuran Sepatu"
+        android:textColorHint="@color/black"
+        android:inputType="number"
+        android:layout_below="@id/updateShoeNameEditText"
+        android:layout_marginTop="12dp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_border" />
+
+    <EditText
+        android:id="@+id/updateOrderDateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Tanggal Pesanan"
+        android:textColorHint="@color/black"
+        android:inputType="date"
+        android:layout_below="@id/updateShoeSizeEditText"
+        android:layout_marginTop="12dp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_border" />
+
+    <EditText
+        android:id="@+id/updatePhoneNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Nomor Telepon"
+        android:textColorHint="@color/black"
+        android:inputType="phone"
+        android:layout_below="@id/updateOrderDateEditText"
+        android:layout_marginTop="12dp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_border" />
+
+    <EditText
+        android:id="@+id/updateLocationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Lokasi"
+        android:textColorHint="@color/black"
+        android:layout_below="@id/updatePhoneNumberEditText"
+        android:layout_marginTop="12dp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_border" />
+
+    <EditText
+        android:id="@+id/updateDescriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Pesan"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:gravity="top"
+        android:layout_below="@id/updateLocationEditText"
+        android:layout_marginTop="12dp"
+        android:padding="12dp"
+        android:background="@drawable/border" />
+
+</RelativeLayout>
