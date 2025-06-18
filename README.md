@@ -6,26 +6,23 @@
 > - Layanan **saat ini hanya tersedia di kota Purwakarta**
 > - Input lokasi dilakukan secara **manual** (belum mendukung Maps)
 
-
 ### ✨ Fitur Utama
-- Pemesanan layanan pembersih sepatu secara online
-- Penjemputan dan pengantaran sepatu oleh pegawai
-- Pelacakan status pembersihan: dari *Dijemput* hingga *Selesai*
-- Hanya mendukung metode pembayaran **tunai (cash)**
-- Fitur berbagi detail pesanan via aplikasi lain
+- Pemesanan jasa pembersih sepatu dari HP
+- Form input sepatu dan alamat secara manual
+- Penjemputan & pengantaran sepatu oleh pegawai
+- Pelacakan status pesanan: Dijemput → Diterima → Proses → Diantar → Selesai
+- Pembayaran **tunai (cash)** langsung ke pegawai
+- Fitur berbagi data pesanan (WhatsApp, Email, dll)
 
 ### ⚙️ Teknologi
-- Bahasa Pemrograman: Kotlin
-- Backend: Firebase Realtime Database & Firebase Authentication
-- UI: RecyclerView, DatePicker, Custom Form Input
-- Map: OpenStreetMap (OSMDroid)
+- Kotlin + Android SDK
+- Firebase (Auth + Realtime Database)
+- RecyclerView, DatePicker, Form Dinamis
+- Belum mendukung Maps – input lokasi manual
 
-### 📦 Unduh APK
+### 📥 Unduh APK
 ➡️ [Download DoctorShoes.apk](https://github.com/Smillerby/Aplikasi-DOCTORSHOES/releases)
-
-### 📷 Screenshot
-(Tambahkan screenshot aplikasi di sini untuk menarik minat)
 
 ---
 
-Aplikasi ini cocok untuk semua kalangan yang ingin menjaga kebersihan sepatunya tanpa repot datang langsung ke tempat laundry. Solusi cepat, bersih, dan praktis untuk sepatu Anda!
+Doctor Shoes adalah solusi sederhana dan praktis untuk layanan laundry sepatu **khusus warga Purwakarta**.
