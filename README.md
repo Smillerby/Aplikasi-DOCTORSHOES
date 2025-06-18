@@ -7,7 +7,7 @@
 > - Input lokasi dilakukan secara **manual** (belum mendukung Maps)
 
 ### ✨ Fitur Utama
-- Pemesanan jasa pembersih sepatu dari HP
+- Pemesanan jasa pembersih sepatu
 - Form input sepatu dan alamat secara manual
 - Penjemputan & pengantaran sepatu oleh pegawai
 - Pelacakan status pesanan: Dijemput → Diterima → Proses → Diantar → Selesai
