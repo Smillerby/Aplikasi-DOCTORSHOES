@@ -34,8 +34,8 @@
 - Perangkat Android (jika hanya ingin mencoba file APK)
 
 ### 📲 Cara Instal APK:
-1. Buka [halaman releases](https://github.com/Smillerby/Aplikasi-DOCTORSHOES/releases) *(jika tersedia)*
-2. Unduh file `DoctorShoes.apk`
+1. Buka [halaman releases](https://github.com/Smillerby/Aplikasi-DOCTORSHOES/releases)
+2. Unduh file `DOCTORSHOES.apk`
 3. Instal APK ke perangkat Android (aktifkan *Install from Unknown Sources*)
 4. Jalankan aplikasi dan login/register sebagai pengguna
 
